@@ -1,31 +1,37 @@
-import logo from "../assets/logo";
+const blogName = "Overreacted";
 
-const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
-  posts: [
-    {
-      id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
-    },
-    {
-      id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
-    },
-    {
-      id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
-    },
-  ],
+const blogAbout =
+  "Personal blog by Dan Abramov. I explain with words and code.";
+
+const blogImage =
+  "https://reactjs.org/logo-og.png";
+
+const blogPosts = [
+  {
+    id: 1,
+    title: "React is pretty cool",
+    date: "July 13, 2020",
+    preview: "In this post, I talk about React and why it's great...",
+    minutes: 10,
+  },
+  {
+    id: 2,
+    title: "Understanding useEffect",
+    date: "July 14, 2020",
+    preview: "Let's dive into how useEffect works in depth.",
+    minutes: 45,
+  },
+  {
+    id: 3,
+    title: "Why I Love JavaScript",
+    preview: "JavaScript has its quirks, but it's my favorite language.",
+    minutes: 7,
+  },
+];
+
+export default {
+  name: blogName,
+  about: blogAbout,
+  image: blogImage,
+  posts: blogPosts,
 };
-
-export default blogData;
