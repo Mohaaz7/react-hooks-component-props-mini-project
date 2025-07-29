@@ -8,10 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header name="Underreacted" />
-      <About 
-        image={blogData.image} 
-        about={blogData.about} 
-      />
+      <About image={blogData.image} about={blogData.about} />
       <ArticleList posts={blogData.posts} />
     </div>
   );

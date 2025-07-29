@@ -1,23 +1,27 @@
 const blogData = {
   name: "Underreacted",
   image: "https://via.placeholder.com/215",
-  about: "A blog about React and modern web development",
+  about: "Personal blog about React and frontend adventures.",
   posts: [
     {
       id: 1,
-      title: "Getting Started with React",
-      date: "July 27, 2025",
-      preview: "React is a JavaScript library for building user interfaces...",
-      minutes: 8,
+      title: "React is cool",
+      date: "March 10, 2025",
+      preview: "React makes frontend development so much smoother!"
     },
     {
       id: 2,
-      title: "Using JSX",
-      date: "July 28, 2025",
-      preview: "JSX is a syntax extension for JavaScript...",
-      minutes: 5,
+      title: "Why I use JSX",
+      date: "March 15, 2025",
+      preview: "JSX helps me write more readable code."
     },
-  ],
+    {
+      id: 3,
+      title: "State vs Props",
+      date: "March 20, 2025",
+      preview: "Understanding the difference changed how I write components."
+    }
+  ]
 };
 
 export default blogData;
