@@ -1,27 +1,28 @@
 const blogData = {
-  name: "Underreacted",
-  image: "https://via.placeholder.com/215",
-  about: "Personal blog about React and frontend adventures.",
+  name: "My Blog",
+  about: "Your daily dose of tech and code tips!",
   posts: [
     {
       id: 1,
-      title: "React is cool",
-      date: "March 10, 2025",
-      preview: "React makes frontend development so much smoother!"
+      title: "React Components",
+      date: "January 1, 2023",
+      preview: "Learn about building reusable components in React.",
+      minutes: 10,
     },
     {
       id: 2,
-      title: "Why I use JSX",
-      date: "March 15, 2025",
-      preview: "JSX helps me write more readable code."
+      title: "JavaScript Closures",
+      date: "January 15, 2023",
+      preview: "Understanding closures in JavaScript.",
+      minutes: 5,
     },
     {
       id: 3,
-      title: "State vs Props",
-      date: "March 20, 2025",
-      preview: "Understanding the difference changed how I write components."
-    }
-  ]
+      title: "CSS Grid Layout",
+      preview: "Create flexible layouts with CSS Grid.",
+      minutes: 15,
+    },
+  ],
 };
 
 export default blogData;
